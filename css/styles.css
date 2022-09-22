@@ -17,13 +17,13 @@
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
   line-height: 1.71;
   background-color: var(--primary-bg-color);
 }
 
 button {
+  font-family: inherit;
   border: none;
 }
 
@@ -38,6 +38,7 @@ button {
 
 .section-title {
   font-size: 36px;
+  letter-spacing: 0.03em;
   line-height: 1.67;
   text-align: center;
 }
@@ -52,6 +53,7 @@ button {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   font-weight: 700;
+  letter-spacing: 0.03em;
   color: var(--logo-color);
   line-height: 1.38;
   text-decoration: none;
@@ -111,8 +113,13 @@ button {
 
 .advantages-item {
   font-size: 14px;
+  letter-spacing: 0.03em;
   line-height: 1.14;
   text-transform: uppercase;
+}
+
+.advantages-list p {
+  letter-spacing: 0.03em;
 }
 
 /* team-section */
@@ -124,6 +131,7 @@ button {
 .team-item > h3,
 .team-item > p {
   font-size: 16px;
+  letter-spacing: 0.03em;
   line-height: 1.19;
   text-align: center;
 }
@@ -131,10 +139,6 @@ button {
 .team-item > h3 {
   color: var(--title-color);
   font-weight: 500;
-}
-
-.team-item-description {
-  font-weight: 400;
 }
 
 /* footer */
@@ -146,6 +150,7 @@ button {
 
 .contacts-list a {
   font-style: normal;
+  letter-spacing: 0.03em;
   line-height: 1.71;
   text-decoration: none;
 }
@@ -165,6 +170,7 @@ button {
 .buttons-switches .buttons-switches-item {
   font-weight: 500;
   font-size: 16px;
+  letter-spacing: 0.03em;
   line-height: 1.63;
   text-align: center;
   color: var(--button-color);
